@@ -1,0 +1,113 @@
+.titre_page{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin-top: 3%;
+    background-color: #27282c;
+    border-radius: 67px;
+    border-block-color: black;
+    width: 23%;
+    margin-left: 38%;
+    color: white;
+}
+
+.logo {
+  padding-left: 43%;
+}
+
+/*texte d'explication du jeu*/
+.resume {
+	margin-top: 5%;
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/*prénom de l'équipe*/
+
+.personnes{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  }
+  
+  .personnes p{
+    margin: 10px;
+    width: 128px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 33px;
+    height: 100px;
+    padding-top: 30px;
+    margin-right: 18px;
+  }
+
+/*logo des comptes + titres*/
+
+.nos_comptes{
+  margin-left: 29%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reseaux {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+/*Bouton du lien pour télécharger le jeu*/
+
+.lien_jeu {
+  min-height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  padding: 16px 30px;
+  font-size: 1.5rem;
+  color:#fec106;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  text-shadow: 0 0 15px #fec106;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+  z-index: 1;
+  background-color: #27282c;
+}
+
+.button:hover {
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0px #fec106;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccd640dc;/*#dde938dc;*/
+  z-index: -1;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.button:hover::before {
+  transform: scale(1);
+  transition-delay: 0.5s;
+  box-shadow: 0 0 10px #ccd640dc,
+    0 0 30px #ccd640dc,
+    0 0 60px #ccd640dc;
+}
