@@ -1,59 +1,59 @@
 html,
 body {
-	width: 100%;
-	height: 100%;
-	background-size: 150% 156%;
+  width: 100%;
+  height: 100%;
+  background-size: 150% 156%;
 }
 
 /*Galerie photo slide */
 .slider-container {
-	height: 80%;
-	width: 100%;
-	margin-top: 3%;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-	margin-bottom: 4%;
+  height: 80%;
+  width: 100%;
+  margin-top: 3%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 4%;
 }
 
 .menu {
-	position: absolute;
-	left: 0;
-	z-index: 900;
-	width: 99%;
-	bottom: 0%;
-	margin-left: 1%;
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 99%;
+  bottom: 0%;
+  margin-left: 1%;
 }
 
 .menu label {
-	cursor: pointer;
-	display: inline-block;
-	width: 1%;
-	height: 16px;
-	background: #fff;
-	margin: 0 0.2em 1em;
-	border-radius: 60%;
+  cursor: pointer;
+  display: inline-block;
+  width: 1%;
+  height: 16px;
+  background: #fff;
+  margin: 0 0.2em 1em;
+  border-radius: 60%;
 }
 
 /*.menu label:hover, .menu label:focus {
 	background: #1c87c9;
 }*/
 .slide {
-	width: 30%;
-	height: 100%;
-	position: absolute;
-	top: -5px;
-	/*left: 100%;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: -5px;
+  /*left: 100%;
 	z-index: 10;*/
-	padding: 0em 1em 0;
-	background-size: cover;
-	background-position: 50% 50%;
-	transition: left 0s 0.75s;
-	margin-left: 34%;
-	background-color: black;
+  padding: 0em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s 0.75s;
+  margin-left: 34%;
+  background-color: black;
 }
 [id^="slide"]:checked + .slide {
-	left: 0;
-	z-index: 100;
-	transition: left 0.65s ease-out;
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
 }

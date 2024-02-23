@@ -1,4 +1,4 @@
-.actu p{
+.actu p {
   font-size: larger;
   font-weight: bold;
   padding-left: 7%;
@@ -6,20 +6,20 @@
   margin-top: 5%;
 }
 
-.actu ul{   
+.actu ul {
   font-size: larger;
   font-weight: bold;
   padding-left: 7%;
   padding-right: 7%;
 }
 
-.actu h2{
-    margin-top: 5%; 
-    padding-left: 7%;
-    background-color: #191c27;
-    border-radius: 67px;
-    border-block-color: black;
-    width: 37%;
-    margin-left: 5%;
-    color: white;
+.actu h2 {
+  margin-top: 5%;
+  padding-left: 7%;
+  background-color: #191c27;
+  border-radius: 67px;
+  border-block-color: black;
+  width: 37%;
+  margin-left: 5%;
+  color: white;
 }
