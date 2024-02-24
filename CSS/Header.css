@@ -1,5 +1,3 @@
-/* Ajoutez ce bloc de styles à votre fichier Header.css */
-
 body {
   font-family: "Gill Sans", sans-serif;
   background-image: url("../Images/fond4.png");
@@ -32,7 +30,7 @@ header {
   grid-template-columns: repeat(
     4,
     1fr
-  ); /* Ajout d'une colonne pour le bouton "Jouer" */
+  );
   grid-template-rows: 1fr;
 }
 

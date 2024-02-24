@@ -1,4 +1,4 @@
-/* En-tête */
+
 .titre_page {
   display: flex;
   justify-content: center;
@@ -10,7 +10,6 @@
   padding-left: 43%;
 }
 
-/* Texte d'explication du jeu */
 .resume {
   margin-top: 5%;
   font-size: larger;
@@ -19,7 +18,6 @@
   padding-right: 7%;
 }
 
-/* Prénom de l'équipe */
 .personnes {
   display: flex;
   justify-content: space-evenly;
@@ -38,7 +36,6 @@
   margin-right: 14px;
 }
 
-/* Logo des comptes + titres */
 .titre_compte {
   display: flex;
   justify-content: center;
@@ -59,7 +56,6 @@
   margin-top: 3%;
 }
 
-/* Bouton du lien pour télécharger le jeu */
 .lien_jeu {
   min-height: 13vh;
   display: flex;
@@ -92,7 +88,7 @@
 }
 
 .button:hover {
-  color: #000; /* Changez la couleur du texte au survol selon vos préférences */
+  color: #000; 
 }
 
 .button:hover::before {
@@ -116,7 +112,6 @@
   z-index: -1;
 }
 
-/* Ajoutez ce bloc de styles à votre fichier explanation.css */
 
 .explanation {
   display: flex;
